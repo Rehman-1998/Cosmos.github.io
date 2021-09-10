@@ -1,0 +1,92 @@
+/*********************************** Font Family Hurme  ************************************/
+@font-face {
+    font-family: Hurme;
+    src: url("../font/HurmeGeometricSans1.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Hurme-bold;
+    font-weight: bold;
+    src: url("../font/HurmeGeometricSans1 Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Hurme-semi-bold;
+    font-weight: bold;
+    src: url("../font/HurmeGeometricSans1 SemiBold.otf") format("opentype");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Hurme";
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/********************* Job Main-title and Details of Single Job Page Start *************************/
+
+.job-main-title{
+    padding: 25px;
+    background-color:black;
+    color: white;
+}
+.job-main-title h1{
+    font-family: 'Hurme';
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.job-main-title h5{
+    font-family: 'Hurme';
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.job-details{
+     padding: 25px;
+     background-color:rgba(24, 23, 23, 0.658);
+     color: white;
+}
+.job-details h6{
+    font-size: 15px;
+}
+
+/********************* Job Main-title and Details of Single Job Page End *************************/
+
+/**************************** job-description CSS Start ***********************************************/
+
+
+.job-description h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Hurme-semi-bold;
+    margin-top: 40px;
+}
+.job-description h6{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+/**************************** job-description CSS End ***********************************************/
+
+/*************************** Apply Button CSS Start *************************************************/
+
+.apply-button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.apply-button button{
+    padding: 12px;
+    border: unset;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+/*************************** Apply Button CSS End *************************************************/

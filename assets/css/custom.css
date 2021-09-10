@@ -1,0 +1,372 @@
+/*********************************** Font Family Hurme  ************************************/
+@font-face {
+    font-family: Hurme;
+    src: url("../font/HurmeGeometricSans1.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Hurme-bold;
+    font-weight: bold;
+    src: url("../font/HurmeGeometricSans1 Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Hurme-semi-bold;
+    font-weight: bold;
+    src: url("../font/HurmeGeometricSans1 SemiBold.otf") format("opentype");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Hurme";
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+/********************* Navbar START *********************/
+.navbar.bg-light {
+    background-color: #ffff !important;
+    --bs-bg-opacity: 0;
+    /* height: 80px; */
+    height: 65px;
+    box-shadow: rgb(51 63 86 / 33%) 0px 2px 2px;
+}
+
+.navbar-brand img {
+    height: 35px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav {
+    height: 65px;
+
+}
+
+.navbar-expand-lg .navbar-nav li.nav-item {
+    padding: 14px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000 !important;
+    height: 65px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #000;
+}
+
+.navbar.navbar-expand-lg .dropdown:hover>.dropdown-menu {
+    display: block;
+    box-shadow: rgb(51 63 86 / 33%) 0px 2px 2px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.mega-menu,
+.mega-menu2 {
+    width: 1010px;
+    overflow: hidden;
+    padding: 20px 30px;
+    background: #fff;
+}
+
+.mega-menu .row h4,
+.mega-menu2 .row h4 {
+    font-size: 20px;
+}
+
+.mega-menu .row ul li,
+.mega-menu2 .row ul li {
+    padding: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px;
+    margin-left: -36px;
+}
+
+.mega-menu .row ul li a,
+.mega-menu2 .row ul li a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.dropdown-menu.mega-menu {
+    right: 50%;
+    left: -90%;
+    top: 45px;
+    margin-top: 0rem;
+    background-color: #fff;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+
+ul.dropdown-menu.mega-menu.show a,
+.dropdown-menu.mega-menu2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu.mega-menu2 {
+    top: 45px;
+    left: -280%;
+    margin-top: 0rem;
+    background-color: #fff;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+
+.mega-menu .row .button,
+.mega-menu2 .row .button {
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff !important;
+    background-color: #000000;
+    font-size: 14px;
+    width: 70%;
+}
+
+/* #home .mega-menu, #home .mega-menu2{
+    background: rgb(255,255,255, 0.8);
+} */
+
+#home .dropdown-menu {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+/********************** Navbar END **********************/
+
+/********************** Market Section  CSS START  ***************************/
+.main-container {
+    background-color: #f1f1f1;
+
+}
+
+.main-container h1 {
+    font-family: "Hurme-bold";
+    color: black;
+    font-size: 50px;
+    line-height: 72.8px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main-container p {
+    font-size: 16px;
+    line-height: 27.2px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.select-category {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.select-category h5 {
+    font-family: "Aktiv Grotesk";
+    font-size: 18px;
+    padding-bottom: 0px !important;
+    color: #808080;
+}
+
+.select-category span {
+    font-size: 18px;
+    color: black;
+}
+
+/********************** Market Section  CSS END  ***************************/
+
+/********************** Services Page Section  CSS START  ***************************/
+
+/********************** Services Page Section  CSS END  ***************************/
+
+/******************************* Blog Image CSS START **********************************/
+
+.blog {
+    position: relative;
+    overflow: hidden;
+
+}
+.show-more {
+    display: none;
+}
+
+.blog img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.9;
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+}
+
+.blog:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.9s ease-in-out;
+
+}
+
+.blog h5 {
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    padding: 8px;
+    background: #00000047;
+}
+
+/******************************* Blog Image CSS END **********************************/
+
+
+/******************************* single-page-main CSS START *******************************/
+
+.single-page-heading {
+    text-align: center;
+}
+
+.single-page-heading h1 {
+    font-family: 'Hurme-bold';
+    color: black;
+    font-size: 50px;
+    line-height: 72.8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.single-page-heading .video {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.single-page-heading img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.single-page-sub-heading h4 {
+    font-family: 'Hurme-semi-bold';
+    font-size: 27px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.single-page-sub-heading p {
+    text-align: justify;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.policy-term {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+.policy-term a {
+    text-decoration: none;
+    color: black;
+}
+
+.policy-term a:hover {
+    text-decoration: underline;
+}
+
+/****************  single-page-main CSS End **************/
+
+/****************   Related Project CSS Start ***************/
+
+.Related-Project {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Related-Project h4 {
+    text-align: center;
+    font-family: "Hurme-semi-bold";
+    font-size: 27px;
+}
+
+
+/****************   Related Project CSS End ***************/
+
+
+/****************   Related News CSS Start ***************/
+
+.Related-News {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Related-News h4 {
+    text-align: center;
+    font-family: "Hurme-semi-bold";
+    font-size: 27px;
+}
+
+
+/****************   Related News CSS End ***************/
+
+/****************  News Main Page START ****************/
+.news-page a {
+    text-decoration: none;
+}
+
+/****************  News Main Page END ****************/
+
+/********************* Footer CSS Start ******************/
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+}
+
+
+/********************* Footer CSS End  ******************/

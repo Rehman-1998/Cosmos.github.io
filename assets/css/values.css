@@ -1,0 +1,14 @@
+.our-values{
+    margin: 20px 0px;
+}
+.our-values h1{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Hurme-semi-bold;
+    margin: 20px 0px;
+}
+.our-values p{
+    padding-right: 10px;
+    text-align: justify;
+    font-size: 16px;
+}

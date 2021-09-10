@@ -1,0 +1,195 @@
+/*********************************** Font Family Hurme  ************************************/
+@font-face {
+  font-family: Hurme;
+  src: url("../font/HurmeGeometricSans1.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Hurme-bold;
+  font-weight: bold;
+  src: url("../font/HurmeGeometricSans1 Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Hurme-semi-bold;
+  font-weight: bold;
+  src: url("../font/HurmeGeometricSans1 SemiBold.otf") format("opentype");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Hurme";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/********************* Image of Project Page Start *************************/
+
+.Our-Frim-Page-Banner-Image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  color: white;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.Our-Frim-Page-Banner-Heading {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.Our-Frim-Page-Para {
+  font-size: 14px;
+}
+
+/********************* Image of Project Page Start *************************/
+
+/******************** Our-Frim-Page-Details Start ***************************/
+.Our-Frim-Page-Details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Our-Frim-Page-Details h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.Our-Frim-Page-Details h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/******************** Our-Frim-Page-Details End ***************************/
+/******************** Our-Frim-Page-sub-heading Start ***************************/
+
+.Our-Frim-Page-sub-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Our-Frim-Page-sub-heading p {
+  margin-bottom: 0px;
+}
+
+/******************** Our-Frim-Page-sub-heading End ***************************/
+
+/************************ Our Team Start ***********************************/
+.team {
+  padding: 2px;
+}
+
+.team img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.team h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.team h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.team p {
+  font-size: 12px;
+  font-weight: 600;
+  color: dimgray;
+  margin-bottom: 8px;
+}
+
+/************************ Our Team End ***********************************/
+
+
+
+
+/******************************** Media Query Of Our Frim Page START For Ipad  IOS Devices ****************/
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .team img {
+    height: 150px;
+  }
+
+  .team h5 {
+    font-size: 11px;
+  }
+
+  .team h6 {
+    font-size: 10px;
+  }
+
+  .team p {
+    font-size: 9px;
+    margin-bottom: 8px;
+  }
+}
+
+/******************************** Media Query Of Our Frim Page START For Ipad  IOS Devices **************/
+
+/******************************* Media Query Of Our Frim Page START For Mobile Devices *********************/
+@media screen and (max-width: 767px) {
+  .Our-Frim-Page-Banner-Image {
+    height: 250px;
+  }
+
+  .Our-Frim-Page-Banner-Heading {
+    height: 250px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .Our-Frim-Page-Banner-Heading h1 {
+    font-size: 16px;
+  }
+
+  .Our-Frim-Page-Details h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .Our-Frim-Page-Details h3 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .Our-Frim-Page-sub-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .team img {
+    height: 150px;
+  }
+
+  .team h5 {
+    font-size: 12px;
+  }
+
+  .team h6 {
+    font-size: 11px;
+  }
+
+  .team p {
+    font-size: 9px;
+    margin-bottom: 8px;
+  }
+}

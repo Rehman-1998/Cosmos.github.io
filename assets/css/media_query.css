@@ -1,0 +1,1048 @@
+/******************************** START For Mini Laptop ********************************/
+
+@media screen and (max-width: 1400px) and (min-width:1025px) {
+
+
+    /*=============== Navbar Start For Mini Laptop ===============*/
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        padding: 22px 25px;
+    }
+
+    .mega-menu,
+    .mega-menu2 {
+        /* width: 950px; */
+        width: 845px;
+    }
+
+    .mega-menu .row .button,
+    .mega-menu2 .row .button {
+        font-size: 13px;
+        width: 65%;
+    }
+
+    /*=============== Navbar END For Mini Laptop ===============*/
+
+    /*=============== Slider START For Mini Laptop ===============*/
+
+    .carousel-item {
+        height: unset;
+        min-height: unset;
+    }
+
+    .carousel-item img {
+        height: 650px;
+    }
+
+    .carousel-caption {
+        bottom: 31%;
+    }
+
+    #about-us .carousel-item img {
+        height: 220px !important;
+        min-height: 220px;
+    }
+
+    /*=============== Slider END For Mini Laptop ===============*/
+
+    /*=============== Project Single Page START For Mini Laptop ===============*/
+    .our-sale p {
+        padding: 25px;
+        font-size: 30px;
+    }
+
+    .Under-construction {
+        padding: 5px 0px 5px 0px;
+    }
+
+    /*=============== Project Single Page END For Mini Laptop ===============*/
+}
+
+/******************************** END For Mini Laptop ********************************/
+
+/******************************** START For Ipad Pro Devices ********************************/
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+
+
+    /*=============== Navbar Page Start Ipad Pro ===============*/
+    .navbar.bg-light {
+        height: 60px;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar-nav {
+        height: 60px;
+    }
+
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        padding: 16px 11px;
+        font-size: 14px;
+    }
+
+    .mega-menu,
+    .mega-menu2 {
+        width: 685px;
+        padding: 30px 25px;
+    }
+
+    .mega-menu .row h4,
+    .mega-menu2 .row h4 {
+        font-size: 18px;
+    }
+
+    .mega-menu .row ul li a,
+    .mega-menu2 .row ul li a {
+        font-size: 13px;
+    }
+
+    .mega-menu .row .button,
+    .mega-menu2 .row .button {
+        margin-top: 10px;
+        font-size: 13px;
+        width: 85%;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+        margin-top: 0px !important;
+    }
+
+    /*=============== Navbar Page END Ipad Pro ===============*/
+
+    /*=============== Slider START Ipad Pro ===============*/
+    .carousel-item {
+        min-height: 300px;
+        height: 480px;
+    }
+
+    #about-us .carousel-item img {
+        height: 200px !important;
+        min-height: 200px;
+    }
+
+    .carousel-caption {
+        bottom: 0%;
+        top: 32%;
+    }
+
+    /*=============== Slider END Ipad Pro ===============*/
+
+    /*=============== About Us Section START Ipad Pro ===============*/
+    .aboutus-title h4 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    /*=============== About Us Section END Ipad Pro ===============*/
+
+    /*==================== Market Page and Service Page START Ipad Pro =========================  */
+    .blog img {
+        height: 150px;
+    }
+
+    .blog p {
+        top: 115px;
+        font-size: 14px;
+    }
+
+    .services {
+        margin-top: 35px;
+    }
+
+    /*==================== Market Page and Service Page END FOr Ipad Pro =========================  */
+
+    /*=============== Project Single Page END For Ipad Pro ===============*/
+    .contact-info {
+        margin-left: -66px;
+    }
+
+    .contact-info ul li {
+        width: 300px;
+    }
+
+    .our-sale p {
+        padding: 15px;
+        font-size: 28px;
+    }
+
+    .map iframe {
+        height: 510px;
+    }
+
+    /*=============== Project Single Page END For Ipad Pro ===============*/
+    /*================= Project Main Page START For Ipad PRO Devices =================*/
+
+    .Project-page-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Project-page-heading h1 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .Product-Page-Banner-Image {
+        height: 350px;
+    }
+
+    .Product-Page-Banner-Image h5 {
+        font-size: 16px;
+    }
+
+    .Product-Page-Banner-Image h2 {
+        font-size: 22px;
+    }
+
+
+    .Product-Page-Banner-Heading {
+        height: 350px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    /*================= Project Main Page START For Ipad PRO Devices =================*/
+
+    /***************************************************************************/
+    /******************** Our-Frim-Page-Details Start ***************************/
+
+    .Our-Frim-Page-Details h2 {
+        font-size: 27px;
+
+    }
+
+    .Our-Frim-Page-Details h3 {
+        font-size: 18px;
+
+    }
+
+    .Our-Team h1 {
+        font-size: 35px;
+    }
+
+    /******************** Our-Frim-Page-Details End ***************************/
+    /***************************************************************************/
+
+    /*=============== Related Blog Section START For Ipad Pro ===============*/
+    .blog h5 {
+        top: 118px;
+        left: 10px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    /*=============== Related Blog Section END For Ipad Pro ===============*/
+       /*=============== Single Job Page Start for Ipad Pro Device ==============*/
+
+       .job-main-title h1 {
+           font-size: 35px;
+       }
+
+       .job-main-title h5 {
+           font-size: 12px;
+       }
+
+       .job-details h6 {
+           font-size: 12px;
+       }
+
+       .job-main-title {
+           padding: 30px 15px;
+       }
+
+       .job-details {
+           padding: 30px 15px;
+       }
+
+
+
+       /*=============== Single Job Page End for Ipad PRO Device ==============*/
+}
+
+/******************************** END For Ipad Pro Devices ********************************/
+
+/******************************** START For Ipad  IOS Devices *********************************/
+@media screen and (max-width:991px) and (min-width: 768px) {
+
+    /*=============== Hamburger Start For Ipad ===============*/
+    .navbar.bg-light,
+    .navbar-nav {
+        height: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        align-items: flex-start;
+    }
+
+
+    .navbar-brand img {
+        height: 38px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        border-bottom: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        height: unset;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-top: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        padding: 10px 0px 5px 0px;
+        font-size: 13px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0px;
+    }
+
+    .mega-menu,
+    .mega-menu2 {
+        width: 720px;
+        padding: 10px 30px;
+    }
+
+    .dropdown-menu.mega-menu,
+    .dropdown-menu.mega-menu2 {
+        margin-top: 0.01rem;
+    }
+
+    .mega-menu .row h4,
+    .mega-menu2 .row h4 {
+        font-size: 14px;
+    }
+
+    .mega-menu .row ul li a,
+    .mega-menu2 .row ul li a {
+        font-size: 12px;
+        /* margin-left: -37px; */
+    }
+
+    .mega-menu .row .button,
+    .mega-menu2 .row .button {
+        margin-top: 10px;
+        padding: 3px 8px;
+        font-size: 13px;
+        width: 85%;
+    }
+
+    /*=============== Hamburger END For Ipad ===============*/
+
+    /*=============== Slider START Ipad ===============*/
+    .carousel-item {
+        min-height: 300px;
+        height: 300px;
+    }
+
+    #about-us .carousel-item img {
+        height: 180px !important;
+        min-height: 180px;
+    }
+
+    .carousel-caption {
+        bottom: 0%;
+        top: 7%;
+    }
+
+    /*=============== Slider END Ipad ===============*/
+    /*=============== Home Page Title Sub-title Start ===============*/
+    .aboutus-title h4 {
+        font-size: 18px;
+    }
+
+    .sub-title h3 {
+        font-size: 16px;
+    }
+
+    .sub-title p {
+        font-size: 13px;
+    }
+
+    #about-us .aboutus-title {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    /*=============== Home Page Title Sub-title End ===============*/
+
+    /*==================== Market & Service Page START For Ipad =========================  */
+    .blog img {
+        height: 150px;
+    }
+
+    .single-page-heading .video {
+        height: 100%;
+    }
+
+    .services {
+        margin-top: 25px;
+    }
+
+    /*=============== Related Blog Section START For Ipad ===============*/
+    .blog h5 {
+        top: 122px;
+        left: 8px;
+        font-size: 13px;
+        padding: 4px;
+    }
+
+    /*=============== Related Blog Section END For Ipad ===============*/
+
+    /*==================== Market & Service Page END For Ipad =========================  */
+
+    /*=============== Project Single Page END For Ipad ===============*/
+    .project-header img {
+        height: 380px;
+    }
+
+    .our-sale p {
+        padding: 20px;
+        font-size: 26px;
+    }
+
+    .recent-projects img {
+        height: 320px;
+    }
+
+    .recent-projects h3 {
+        font-size: 20px;
+    }
+
+    .recent-projects p {
+        font-size: 13px;
+    }
+
+    .gallery h4 {
+        font-size: 16px;
+    }
+
+    /*=============== Project Single Page END For Ipad ===============*/
+    /*================= Project Main Page START For Ipad Devices =================*/
+
+    .Project-page-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Project-page-heading h1 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .Product-Page-Banner-Image {
+        height: 350px;
+    }
+
+    .Product-Page-Banner-Image h5 {
+        font-size: 16px;
+    }
+
+    .Product-Page-Banner-Image h2 {
+        font-size: 22px;
+    }
+
+
+    .Product-Page-Banner-Heading {
+        height: 350px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    /*================= Project Main Page START For Ipad Devices =================*/
+
+
+    /*=============== Our Frim Page START For Ipad  IPad Devices ===============*/
+    .team img {
+        height: 150px;
+    }
+
+    .team h5 {
+        font-size: 11px;
+    }
+
+    .team h6 {
+        font-size: 10px;
+    }
+
+    .team p {
+        font-size: 9px;
+        margin-bottom: 8px;
+    }
+
+    .Our-Team h1 {
+        font-size: 35px;
+    }
+
+    /******************** Our-Frim-Page-Details Start ***************************/
+
+    .Our-Frim-Page-Details h2 {
+        font-size: 27px;
+
+    }
+
+    .Our-Frim-Page-Details h3 {
+        font-size: 18px;
+
+    }
+
+    /******************** Our-Frim-Page-Details End ***************************/
+      /*=============== Single Job Page Start for Ipad  Device ==============*/
+
+      .job-main-title h1 {
+          font-size: 25px;
+      }
+
+      .job-main-title h5 {
+          font-size: 10px;
+      }
+
+      .job-details h6 {
+          font-size: 10px;
+      }
+
+      .job-main-title {
+          padding: 30px 15px;
+      }
+
+      .job-details {
+          padding: 30px 15px;
+      }
+
+
+
+      /*=============== Single Job Page End for Ipad Device ==============*/
+
+    /*=============== Our Frim Page START For Ipad   Devices ===============*/
+
+}
+
+/******************************** END For Ipad  IOS Devices *********************************/
+
+/******************************* START For Mobile Devices ********************************/
+@media screen and (max-width: 767px) {
+
+    /*=============== Hamburger Start For Mobile Devices ===============*/
+    .navbar.bg-light,
+    .navbar-nav {
+        height: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        align-items: flex-start;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: unset;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-top: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        border-bottom: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        height: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        padding: 8px 0px 4px 0px;
+        font-size: 13px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0px;
+    }
+
+    .mega-menu,
+    .mega-menu2 {
+        width: 100%;
+    }
+
+    ul.mega-menu .row .col-md-4,
+    ul.mega-menu2 .row .col-md-4 {
+        margin-top: 20px;
+    }
+
+    .mega-menu .row h4,
+    .mega-menu2 .row h4 {
+        font-size: 14px;
+    }
+
+    .mega-menu .row ul li a,
+    .mega-menu2 .row ul li a {
+        font-size: 12px;
+    }
+
+    .mega-menu .row .button,
+    .mega-menu2 .row .button {
+        margin-top: 5px;
+        padding: 1px 6px;
+        font-size: 13px;
+        width: 60%;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+        margin-top: -13px !important;
+    }
+
+    /*=============== Hamburger END For Mobile Devices ===============*/
+
+    /*=============== Slider START For Mobile Devices ===============*/
+    .carousel-item {
+        height: unset;
+        min-height: unset;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    /*=============== Slider END For Mobile Devices ===============*/
+
+    /*=============== About Us START For Mobile Devices ===============*/
+    #about-us .aboutus-title {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .aboutus-title h4 {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    .sub-title h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sub-title p {
+        padding-right: unset;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    div#slider2 {
+        margin-top: 10px;
+    }
+
+    .boxes {
+        padding-right: 12px;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    .box h3 {
+        top: 48%;
+    }
+
+    /*=============== About Us Section END For Mobile Devices ===============*/
+
+    /*================= Market & Service Page START For Mobile Devices ==========================*/
+    .main-container p {
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    .main-container h1 {
+        font-size: 35px;
+        padding-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    .services {
+        margin-top: 15px;
+    }
+
+    /*================= Market & Service Page END For Mobile Devices ==========================*/
+
+
+    /*================= Market & Service Single Page START For Mobile Devices =========================*/
+    .single-page-heading img {
+        height: 300px;
+    }
+
+    .single-page-heading .video {
+        height: 100%;
+
+    }
+
+    .policy-term a {
+        font-size: 11px;
+    }
+
+    .single-page-heading h1 {
+        font-size: 35px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .single-page-sub-heading h4 {
+        font-size: 16px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .single-page-sub-heading p {
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+
+    .Related-Project h4 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .Related-News h4 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    /*================= Market & Service Single Page END For Mobile Devices =================*/
+
+
+    /*================= Project Main Page START For Mobile Devices =================*/
+
+    .Project-page-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Project-page-heading h1 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .Product-Page-Banner-Image {
+        height: 300px;
+    }
+
+    .Product-Page-Banner-Heading {
+        height: 300px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .Product-Page-Banner-Heading h5 {
+        font-size: 14px;
+    }
+
+    .Product-Page-Banner-Heading h2 {
+
+        font-size: 16px;
+    }
+
+    .Project-Page-select-category span {
+        font-size: 12px;
+    }
+
+    .Project-Page-select-category {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    /*================= Project Main Page END For Mobile Devices =================*/
+
+
+    /*=============== Project Single Page END For Mobile Devices ===============*/
+    .project-header img {
+        height: 280px;
+    }
+
+    .address,
+    .contact-info {
+        padding: 0px 10px;
+    }
+
+    .social-share {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .our-sale p {
+        padding: 18px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .recent-projects {
+        padding: 0px 0px;
+    }
+
+    .recent-projects2 {
+        flex-direction: column-reverse;
+        padding: 20px 0px;
+    }
+
+    .recent-projects h3 {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+
+    .recent-projects p {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .gallery h4 {
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        padding-top: 0px;
+        margin-top: 0px;
+        /* padding-bottom: 30px; */
+    }
+
+    .gallery .m-3 {
+        margin: 0px !important;
+    }
+
+    /*=============== Project Single Page END For Mobile Devices ===============*/
+
+    /*=============== Our Frim Page START For Mobile Devices ===============*/
+    .Our-Frim-Page-Banner-Image {
+        height: 250px;
+    }
+
+    .Our-Frim-Page-Banner-Heading {
+        height: 250px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .Our-Frim-Page-Banner-Heading h1 {
+        font-size: 16px;
+    }
+
+    .Our-Frim-Page-Details h2 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .Our-Frim-Page-Details h3 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .Our-Frim-Page-sub-heading {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .team img {
+        height: 150px;
+    }
+
+    .team h5 {
+        font-size: 12px;
+    }
+
+    .team h6 {
+        font-size: 11px;
+    }
+
+    .team p {
+        font-size: 9px;
+        margin-bottom: 8px;
+    }
+
+    /*=============== Our Frim Page END For Mobile Devices ===============*/
+
+    /*=============== Related Blog Section START For Mobile Devices ===============*/
+    .blog h5 {
+        top: 162px;
+        left: 10px;
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    /*=============== Related Blog Section END For Mobile Devices ===============*/
+
+    /*=============== Career Page START For Mobile Devices ===============*/
+    .Career-Page-Banner-Image {
+        height: 250px;
+    }
+
+    ​ .Career-Page-Banner-Heading {
+        height: 250px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    .Career-Page-Search input {
+        padding: 10px;
+        font-size: 9px;
+        width: 30%;
+    }
+    .Career-Page-Search button{
+        padding: 10px;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .Career-Page-Search h3{
+        font-size: 18px;
+    }
+
+    /*=============== Career Page END For Mobile Devices ===============*/
+
+    /*=============== Career Inner Page Start for Mobile Device ==============*/
+
+
+    .Career-inner-Page-Banner-Image{
+        height: 200px;
+    }
+    .Career-inner-Page-Banner-Heading{
+        height: 200px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    .jobs-section h3 {
+        font-size: 14px;
+    }
+
+    .jobs-section h6 {
+        font-size: 12px;
+    }
+
+    .jobs-section span {
+        font-size: 12px;
+    }
+    .jobs-section i {
+        font-size: 20px;
+    }
+
+
+    /*=============== Career Inner Page End for Mobile Device ==============*/
+
+
+    /*=============== Single Job Page Start for Mobile Device ==============*/
+
+    .job-main-title h1 {
+        font-size: 13px;
+    }
+    .job-main-title h5 {
+        font-size: 10px;
+    }
+    .job-details h6 {
+        font-size: 10px;
+    }
+    .job-main-title {
+        padding: 20px 10px;
+    }
+    .job-details {
+        padding: 10px;
+    }
+
+
+    .job-description h3 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .job-description h6 {
+        font-size: 12px;
+    }
+    .apply-button {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .apply-button button {
+        padding: 8px;
+        font-size: 12px;
+        border: unset;
+        background-color: black;
+        color: white;
+    }
+
+
+
+
+    /*=============== Single Job Page End for Mobile Device ==============*/ 
+
+
+    /*=============== Contact us Page START For Mobile Devices ===============*/
+    #press,
+    #acadmic_r,
+    #career,
+    #b_inquery,
+    #other {
+        margin-top: 40px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .tab-content.container h5 {
+        font-size: 16px;
+    }
+
+    .contact-form-tabs .nav-link {
+        padding: .5rem .5rem;
+    }
+
+    .contact-info input,
+    .project-info .search,
+    .aca-contact-info input,
+    .ac-project-info .search,
+    .career-contact-info input,
+    .career-job input,
+    .career-job select,
+    .inquery-contact-info input,
+    .other-contact-info input,
+    .other-your_msg input,
+    .other-your_msg select {
+        padding: 7px 9px !important;
+        font-size: 13px;
+    }
+
+    input#attachment {
+        font-size: 12px;
+    }
+
+    .next,
+    .prev,
+    .submit {
+        font-size: 14px;
+    }
+
+    /*=============== Contact us Page END For Mobile Devices ===============*/
+}
+
+/* @media (hover: none) {
+    .dropdown:hover>.dropdown-menu{
+        display: block;
+        box-shadow: rgb(51 63 86 / 33%) 0px 2px 2px;
+    }
+} */
+
+/******************************* END For Mobile Devices ********************************/

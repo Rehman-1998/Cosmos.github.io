@@ -1,0 +1,193 @@
+.contact-banner {
+    margin-top: 65px;
+    position: relative;
+}
+
+.contact-banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contact-banner h3 {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    background: #00000047;
+}
+
+.msg-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.office-address p {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.contact-form-tabs .nav-link {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+    color: rgba(0, 0, 0, .7);
+}
+
+.tab-content.container {
+    padding-bottom: 30px;
+    height: 510px;
+    border-bottom: 1px solid #5b5b5b;
+}
+
+.tab-content.container h5 {
+    font-size: 18px;
+}
+
+.tab-content.container p {
+    font-size: 14px;
+}
+
+/*********************************** Press Form Section START  ************************************/
+#press,
+#acadmic_r,
+#career,
+#b_inquery,
+#other {
+    margin-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.contact-info,
+.inquery-contact-info,
+.other-contact-info {
+    text-align: justify;
+}
+
+.contact-info input,
+.project-info .search,
+.aca-contact-info input,
+.ac-project-info .search,
+.career-contact-info input,
+.career-job input,
+.career-job select,
+.inquery-contact-info input,
+.other-contact-info input,
+.other-your_msg input,
+.other-your_msg select {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ececec !important;
+    padding: 9px 11px !important;
+    color: #5b5b5b !important;
+    opacity: 1 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font-size: 14px;
+}
+
+.field-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.next,
+.prev,
+.submit {
+    background: unset;
+    border: 0px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.prev {
+    color: gray;
+}
+
+.next:hover,
+.prev:hover,
+.submit:hover {
+    color: red;
+}
+
+.project-info,
+.your_msg,
+.aca-contact-info,
+.ac-project-info,
+.ac-your_msg,
+.career-contact-info,
+.career-job,
+.career-your_msg,
+.inquery-your_msg,
+.other-your_msg {
+    display: none;
+    text-align: justify;
+}
+
+.project-info p,
+.ac-project-info p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.more-info,
+.ac-more-info {
+    text-align: justify;
+    font-size: 11px;
+    padding: 20px 0px;
+}
+
+.no-p,
+.more-p,
+.par-p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.more-info h5 .ac-more-info h5 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+input#not_project,
+input#more_project,
+input#not_particular {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+input#attachment {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/*********************************** Press Form Section END  ************************************/
+
+.acadmic_info p {
+    font-size: 15px;
+}
+
+.sell {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.sell p {
+    margin-bottom: 0px;
+}
+
+.other-your_msg #msg {
+    margin-top: 10px;
+}
